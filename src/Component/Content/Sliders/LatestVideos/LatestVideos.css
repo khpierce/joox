@@ -1,0 +1,42 @@
+.latest-con1 {
+    display: flex;
+    width: 100%;
+    margin-bottom: 45px;
+}
+
+.latest-con2 {
+    display: flex;
+    flex-direction: column;
+    width: calc((100%/3) - 14px);
+    padding: 0 7px 0 7px;
+}
+
+.latest-img {
+    width: 100%;
+}
+
+.text-con {
+    display: flex;
+    margin-top: 10px;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: start;
+    font-size: 0.875rem;
+    color: #bcbcbc;
+    line-height: 22px;
+    cursor: pointer;
+    transition: color .2s;
+}
+
+.text-con:hover {
+    color: #fff;
+}
+
+.date-con {
+    display: flex;
+    margin-right: 10px;
+    color: #959595;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8125rem;
+    line-height: 1.2;
+}

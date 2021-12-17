@@ -1,0 +1,256 @@
+.none {
+    display: none;
+}
+
+.lib-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 19px;
+    height: 19px;
+    background: #fff;
+    color: #000;
+}
+
+.li-browse:hover .lib-icon {
+    background: #09de6e;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 15px 20px 15px;
+    border-bottom: 1px solid rgba(151,151,151,0.2);
+}
+
+.btn-wrap {
+    display: inline-block;
+    width: 141.656px;
+    position: relative;
+}
+
+.download-text {
+    display: flex;
+    height: 26px;
+    line-height: 13px;
+    font-weight: 400;
+    position: absolute;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.container3 {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px 0 0;
+    border-bottom: 1px solid rgba(151,151,151,0.2);
+    margin-bottom: 10px;
+}
+
+.container3-closed {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.container1-closed {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0 0 0;
+    border-bottom: 1px solid rgba(151,151,151,0.2);
+}
+
+.browse {
+    font-size: 0.75rem;
+    font-weight: 500;
+    line-height: 2.1;
+    color: #bcbcbc;
+    margin-left: 22px;
+}
+
+.browse-no-margin {
+    font-size: 0.75rem;
+    font-weight: 500;
+    line-height: 2.1;
+    color: #bcbcbc;
+}
+
+.ul-browse {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding-inline-start: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-top: 17px;
+    height: fit-content;
+}
+
+.li-browse {
+    display: flex;
+    margin-bottom: 17px;
+    justify-content: flex-start;
+    align-items: center;
+    color: #bcbcbc;
+    border-left: 3px solid rgba(9, 222, 110, 0);
+}
+
+.li-browse:hover {
+    color: #09de6e;
+    border-left: 3px solid rgba(9, 222, 110, 1);
+}
+
+.li-name {
+    font-size: 0.875rem;
+    line-height: 1.4;
+    margin-top: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 15px;
+}
+
+.li-name-bold {
+    font-size: 0.875rem;
+    line-height: 1.4;
+    margin-top: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 15px;
+    font-weight: 700;
+}
+
+.li-icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    margin-left: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container4{
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px 0 22px;
+    margin-bottom: 10px;
+}
+
+.container5 {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px 0 22px;
+    margin-bottom: 10px;
+}
+
+.ul-benefits {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding-inline-start: 0;
+    margin-block-start: 15px;
+    margin-block-end: 15px;
+    height: fit-content;
+}
+
+.li-benefits::before{
+    content: '-';
+    margin-right: 10px;
+    float: left;
+}
+
+.li-benefits {
+    margin-bottom: 5px;
+    line-height: 1.4;
+    color: #959595;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 0.75rem;
+}
+
+.li-about{
+    margin-bottom: 10px;
+    line-height: 2;
+    font-size: 0.875rem;
+    margin-left: 22px;
+}
+
+.li-about-text{
+    display: flex;
+    width: fit-content;
+    color: #ccc;
+}
+
+.li-about-text-100 {
+    display: flex;
+    width: 100%;
+    color: #ccc;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.li-about-text:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+.about-icon-container {
+    display: flex;
+    margin-top: 5px;
+    padding-right: 30px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-left: 22px;
+}
+
+.about-icon {
+    color: #ccc;
+}
+
+.about-icon:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+.foot{
+    display: flex;
+    margin-right: 10px;
+    color: #b5b5b5;
+    font-size: 0.75rem;
+    line-height: 1.6;
+}
+
+.foot:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+.footer {
+    color: #b5b5b5;
+    font-size: 0.75rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.active{
+    border-left: 3px solid rgba(9, 222, 110, 1);
+    color: #09de6e;
+}
+
+.active .lib-icon {
+    background: #09de6e;
+}
+
+a:-webkit-any-link {
+    text-decoration: none;
+}
+
+.hover-bar {
+    width: 3px;
+    height: 22px;
+    position: absolute;
+    background: #09de6e;
+    left: 0;
+    opacity: 0;
+}

@@ -1,0 +1,141 @@
+.slider-container {
+  margin-bottom: 20px;
+}
+
+.slider-container .slick-slide img {
+  width: 98%;
+  max-height: 290px;
+}
+
+.slider-container .slick-dots li button:before {
+  font-size: 10px !important;
+  color: rgba(125, 125, 125, 0.5);
+  opacity: 0.5;
+}
+  
+.slider-container .slick-dots {
+  bottom: 5px !important;
+}
+  
+.slider-container .slick-dots li {
+  margin: 0px !important;
+  width: 16px !important;
+}
+
+.slider-container .slick-next {
+    width: 32px;
+    height: 100%;
+    color: white;
+    padding: 0 55px 0 110px;
+    right: 0;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(0, 0, 0));
+    z-index: 999;
+}
+
+.slider-container .slick-prev {
+    width: 32px;
+    height: 100%;
+    color: white;
+    padding: 0 110px 0 55px;
+    left: 0;
+    background: linear-gradient(to left, rgba(0, 0, 0, 0), rgb(0, 0, 0));
+    z-index: 999;
+}
+
+.slider-container .slick-next:hover {
+    width: 32px;
+    height: 100%;
+    color: #09de6e;
+    padding: 0 55px 0 110px;
+    right: 0;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(0, 0, 0));
+    z-index: 999;
+}
+
+.slider-container .slick-prev:hover {
+    width: 32px;
+    height: 100%;
+    color: #09de6e;
+    padding: 0 110px 0 55px;
+    left: 0;
+    background: linear-gradient(to left, rgba(0, 0, 0, 0), rgb(0, 0, 0));
+    z-index: 999;
+}
+
+.slider-container-img-container {
+  position: relative;
+  display: block;
+  text-align: center;
+}
+
+.slick-slide.slick-active.slick-center.slick-current:hover .player-background-icon-container {
+  background-color: #222222;
+  background-color: rgb(0, 0, 0, 0.3);
+}
+
+.slider-container .slick-dots li.slick-active button:before {
+    color: #fff;
+    opacity: 1;
+}
+
+.slick-slide.slick-active.slick-center.slick-current:hover .player-icon {
+  display: block;
+}
+
+.player-background-icon-container {
+  position: absolute;
+  cursor: pointer;
+  width: 98%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+}
+
+.player-icon-container {
+  position: absolute;
+  cursor: pointer;
+  top: 42%;
+  left: 46%;
+}
+
+.player-icon {
+  display: none;
+  width: 55px;
+  height: 55px;
+  color: #fff;
+}
+
+.player-icon:hover {
+  color: #09de6e;
+}
+
+.slick-prev,
+.slick-next {
+  z-index: 1;
+}
+
+.slick-prev:before {
+  content: "<" !important;
+  font-size: 30px !important;
+  font-weight: bold;
+}
+
+.slick-next:before {
+  content: ">" !important;
+  font-size: 30px !important;
+  font-weight: bold;
+}
+
+.slick-dots li button:before {
+  color: white !important;
+}
+
+.slick-dots li.slick-active button:before {
+  color: white !important;
+}
+
+.slick-track {
+  display: inline-flex !important;
+}

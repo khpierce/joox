@@ -3,6 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import CTRL from 'react-nc'
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
+
+CTRL.initializeState({
+  open: true,
+  footer: true
+});
 
 ReactDOM.render(
   <React.StrictMode>
